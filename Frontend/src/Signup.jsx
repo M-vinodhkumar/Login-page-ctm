@@ -26,7 +26,7 @@ function Signup() {
     }
 
     const addsignup = () => {
-        var Signupdetails = axios.get(`http://localhost:5000/login?username=${user}&password=${pass}&cpword=${scpword}`)
+        var Signupdetails = axios.get(`https://login-page-ctm.onrender.com?username=${user}&password=${pass}&cpword=${scpword}`)
         alert("Register Completed")
         navigate('/')
 

@@ -17,7 +17,7 @@ function App() {
     }
 
     const check = () => {
-        var logindetails = axios.get(`http://localhost:5000/login?username=${user}&password=${pass}`)
+        var logindetails = axios.get(`https://login-page-ctm.onrender.com?username=${user}&password=${pass}`)
         console.log(logindetails);
 
         logindetails.then(function (data) {
