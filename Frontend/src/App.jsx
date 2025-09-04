@@ -56,8 +56,8 @@ function App() {
                         <button onClick={check} className="bg-blue-600 font-bold text-white p-2 border rounded-lg hover:bg-green-600">Login</button>
                     </div>
                     <div className="flex gap-3 font-bold">
-                        <p className='hover:text-red-600'>Do you haven't account?</p>
-                        <button className="hover:underline cursor-pointer hover:text-blue-800" onClick={handlesignup}>Register</button>
+                        <p className='text-white hover:text-red-600'>Do you haven't account?</p>
+                        <button className=" text-white hover:underline cursor-pointer hover:text-blue-800" onClick={handlesignup}>Register</button>
                     </div>
                 </div>
 
