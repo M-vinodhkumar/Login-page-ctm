@@ -39,7 +39,7 @@ function App() {
         <div  className="min-h-screen flex items-center justify-center bg-cover bg-center"
             style={{
                 backgroundImage:
-                    "url('/src/Appbgimage.jpg')",
+                    "url('https://images.unsplash.com/photo-1486492440844-ebc195542a40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2FtZXJhJTIwaW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww')",
             }}>
             <nav className="fixed top-0 left-0 w-full flex items-center px-4 sm:px-6 py-3 sm:py-4  bg-white/30 backdrop-blur-lg border-b border-pink-200/30 shadow-lg z-50 transition-all duration-500">
                 <h1 className='text-4xl'>📽️</h1>

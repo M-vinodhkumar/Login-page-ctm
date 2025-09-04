@@ -13,7 +13,7 @@ function Fail(){
         <div  className="min-h-screen flex items-center justify-center bg-cover bg-center"
             style={{
                 backgroundImage:
-                    "url('/src/Bg image.jpg')",
+                    "url('https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FtZXJhJTIwaW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww')",
             }}>
         <div className="bg-transparent flex flex-col items-center justify-center gap-5 p-10 border rounded-xl border-transparent backdrop-blur-lg">
             <div className="text-3xl font-bold">
