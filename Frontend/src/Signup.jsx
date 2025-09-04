@@ -26,7 +26,7 @@ function Signup() {
     }
 
     const addsignup = () => {
-        var Signupdetails = axios.get(`https://login-page-ctm.onrender.com?username=${user}&password=${pass}&cpword=${scpword}`)
+        var Signupdetails = axios.get(`http://localhost:5000/login?username=${user}&password=${pass}`)
         alert("Register Completed")
         navigate('/')
 
@@ -36,7 +36,7 @@ function Signup() {
         <div  className="min-h-screen flex items-center justify-center bg-cover bg-center"
             style={{
                 backgroundImage:
-                    "url('/src/assets/Bg image.jpg')",
+                    "url('/src/assets/images/Bg image.jpg')",
             }}>
             <div className="bg-transparent flex flex-col items-center justify-center gap-5 p-10 border rounded-xl border-transparent backdrop-blur-lg">
                 <div className="text-3xl font-bold">

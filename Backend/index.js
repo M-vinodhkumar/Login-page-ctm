@@ -11,7 +11,7 @@ app.get("/login",function(req,res)
 {
     console.log(req.query.username,req.query.password)
 
-    if(req.query.username===username && req.query.password==password && req.query.cpword==req.query.password)
+    if(req.query.username===username && req.query.password==password)
     {
         res.send(true)
     }

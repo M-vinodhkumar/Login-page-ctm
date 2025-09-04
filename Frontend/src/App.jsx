@@ -17,9 +17,10 @@ function App() {
     }
 
     const check = () => {
-        var logindetails = axios.get(`https://login-page-ctm.onrender.com?username=${user}&password=${pass}`)
+        var logindetails = axios.get(`http://localhost:5000/login?username=${user}&password=${pass}`)
         console.log(logindetails);
 
+        
         logindetails.then(function (data) {
             console.log(data)
             if (data.data === true) {
@@ -38,7 +39,7 @@ function App() {
         <div  className="min-h-screen flex items-center justify-center bg-cover bg-center"
             style={{
                 backgroundImage:
-                    "url('/src/assets/Appbgimage.jpg')",
+                    "url('/src/assets/images/Appbgimage.jpg')",
             }}>
             <nav className="fixed top-0 left-0 w-full flex items-center px-4 sm:px-6 py-3 sm:py-4  bg-white/30 backdrop-blur-lg border-b border-pink-200/30 shadow-lg z-50 transition-all duration-500">
                 <h1 className='text-4xl'>📽️</h1>
