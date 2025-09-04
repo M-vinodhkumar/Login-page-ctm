@@ -39,7 +39,7 @@ function App() {
         <div  className="min-h-screen flex items-center justify-center bg-cover bg-center"
             style={{
                 backgroundImage:
-                    "url('/src/assets/images/Appbgimage.jpg')",
+                    "url('/src/Appbgimage.jpg')",
             }}>
             <nav className="fixed top-0 left-0 w-full flex items-center px-4 sm:px-6 py-3 sm:py-4  bg-white/30 backdrop-blur-lg border-b border-pink-200/30 shadow-lg z-50 transition-all duration-500">
                 <h1 className='text-4xl'>📽️</h1>
