@@ -48,7 +48,7 @@ function App() {
             <div className="bg-wallpaper bg-cover h-screen flex justify-center items-center ">
                 <div className="bg-transparent flex flex-col items-center justify-center gap-5 p-10 border rounded-xl border-transparent backdrop-blur-sm">
                     <div className="text-3xl font-bold">
-                        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-black  ">CaptureTheMemories</h1>
+                        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-white  ">CaptureTheMemories</h1>
                     </div>
                     <div className="flex flex-col">
                         <input onChange={handleuser} className='border border-black rounded p-2 w-64 focus:outline-none' name="username" placeholder="Username"></input> <br />
